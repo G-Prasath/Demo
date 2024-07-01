@@ -6052,3 +6052,28 @@ html.mm-opening.inteco-mmenu-right .inteco-mobile-header {
 textarea.form-control.modal_form {
     min-height: calc(1.5em + 3.75rem + 2px);
 }
+
+
+.inteco-blog-title-wrap.inteco-style-custom.inteco-feature-image {
+    aspect-ratio: 16 / 9;
+}
+.inteco-page-title-wrap, body.single-product .inteco-header-transparent-substitute {
+    aspect-ratio: 16 / 9;
+}
+
+.gdlr-core-recent-portfolio-widget.gdlr-core-media-image a img {
+    aspect-ratio: 16 / 9;
+}
+
+.tp-bgimg.defaultimg{
+	aspect-ratio: 16 / 9;
+}
+
+.aspect_ratio {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+
+
+
