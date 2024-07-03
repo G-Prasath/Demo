@@ -52,20 +52,27 @@
 			</button>
 		  </div>
 		  <div class="modal-body">
-			<form>
-			  <div class="form-group">
-				<label for="name">Name</label>
-				<input type="text" class="form-control modal_form" id="name" placeholder="Enter your name">
-			  </div>
-			  <div class="form-group">
-				<label for="email">Email</label>
-				<input type="email" class="form-control modal_form" id="email" placeholder="Enter your email">
-			  </div>
-			  <div class="form-group">
-				<label for="message">Message</label>
-				<textarea class="form-control modal_form" id="message" rows="3" col="3" placeholder="Enter your message"></textarea>
-			  </div>
-			  <button type="submit" class="btn btn-primary">Submit</button>
+			<form method="post" action="mail.php" onsubmit="return validateForm()">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" class="form-control modal_form" id="name" name="name" placeholder="Enter your name" style="margin-bottom:0">
+					<span id="nameError" class="error"></span>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" class="form-control modal_form" id="email" name="email" placeholder="Enter your email" style="margin-bottom:0">
+					<span id="emailError" class="error"></span>
+				</div>
+				<div class="form-group">
+					<label for="phone">Phone</label>
+					<input type="text" class="form-control modal_form phone" id="phone" name="phone" placeholder="Enter your Phone No" style="margin-bottom:0">				
+					<span id="phoneError" class="error"></span>
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea class="form-control modal_form" id="message" name="message" rows="3" col="3" placeholder="Enter your message"></textarea>
+				</div>
+			  <input type="submit" name="Submit" value="Submit" class="btn btn-primary">
 			</form>
 		  </div>
 		</div>
@@ -361,7 +368,48 @@
     <script type='text/javascript' src='js/jquery/ui/effect.min.js'></script>
     <script type='text/javascript' src='js/plugins.js'></script>
     <script type='text/javascript' src='js/isotope.js'></script>
+	<script>
+		function validateForm() {
+			// Clear previous error messages
+			document.getElementById('nameError').textContent = '';
+			document.getElementById('emailError').textContent = '';
+			document.getElementById('phoneError').textContent = '';
+
+			let isValid = true;
+
+			// Validate name
+			const name = document.getElementById('name').value;
+			if (name === '') {
+				document.getElementById('nameError').textContent = 'Name is required';
+				isValid = false;
+			}
+
+			// Validate email
+			const email = document.getElementById('email').value;
+			const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+			if (email === '') {
+				document.getElementById('emailError').textContent = 'Email is required';
+				isValid = false;
+			} else if (!emailPattern.test(email)) {
+				document.getElementById('emailError').textContent = 'Invalid email format';
+				isValid = false;
+			}
+
+			// Validate phone number
+			const phone = document.getElementById('phone').value;
+			const phonePattern = /^(\+91 \d{10}|\d{10})$/; // Assumes phone number is 10 digits
+			if (phone === '') {
+				document.getElementById('phoneError').textContent = 'Phone number is required';
+				isValid = false;
+			} else if (!phonePattern.test(phone)) {
+				document.getElementById('phoneError').textContent = 'Invalid phone number format [EX:+91 1234567890 (or) 1234567890]';
+				isValid = false;
+			}
+
+			return isValid;
+		}
+	</script>
+	
 </body>
 
-<!-- Mirrored from max-themes.net/demos/inteco/standard-post-type.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 29 Jun 2024 06:13:11 GMT -->
 </html>
