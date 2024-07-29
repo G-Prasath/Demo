@@ -225,7 +225,7 @@ body.single-post .inteco-sidebar-style-none, body.blog .inteco-sidebar-style-non
 .inteco-navigation-bar-wrap{ border-color: #e8e8e8; } 
 .inteco-navigation .inteco-navigation-slide-bar{ border-color: #b39a96; }.inteco-navigation .inteco-navigation-slide-bar:before{ border-bottom-color: #b39a96; } 
 .sf-menu > li > a, .sf-vertical > li > a{ color: #ffffff; } 
-.sf-menu > li > a:hover, .sf-menu > li.current-menu-item > a, .sf-menu > li.current-menu-ancestor > a, .sf-vertical > li > a:hover, .sf-vertical > li.current-menu-item > a, .sf-vertical > li.current-menu-ancestor > a{ color: #ffffff; } 
+.sf-menu > li > a:hover, .sf-menu > li.current-menu-item > a, .sf-menu > li.current-menu-ancestor > a, .sf-vertical > li > a:hover, .sf-vertical > li.current-menu-item > a, .sf-vertical > li.current-menu-ancestor > a{ color: #dcbab5; } 
 .sf-menu > .inteco-normal-menu li, .sf-menu > .inteco-mega-menu > .sf-mega, .sf-vertical ul.sub-menu li, ul.sf-menu > .menu-item-language li{ background-color: #191919; } 
 .sf-menu > li > .sub-menu a, .sf-menu > .inteco-mega-menu > .sf-mega a, .sf-vertical ul.sub-menu li a{ color: #bebebe; } 
 .sf-menu > li > .sub-menu a:hover, .sf-menu > li > .sub-menu .current-menu-item > a, .sf-menu > li > .sub-menu .current-menu-ancestor > a, .sf-menu > .inteco-mega-menu > .sf-mega a:hover, .sf-menu > .inteco-mega-menu > .sf-mega .current-menu-item > a, .sf-vertical > li > .sub-menu a:hover, .sf-vertical > li > .sub-menu .current-menu-item > a, .sf-vertical > li > .sub-menu .current-menu-ancestor > a{ color: #ffffff; } 

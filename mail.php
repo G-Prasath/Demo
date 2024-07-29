@@ -31,7 +31,7 @@
 			$hostmail =	$_POST['hostemail'];
 
 			/*$subject = "".$_POST['subject'];*/
-			$to = "logeshwari500@gmail.com";		/* YOUR EMAIL HERE */
+			$to = "sales@smartroofings.in";		/* YOUR EMAIL HERE */
 			$subject = "Demolition";
 			$headers = "From: Demolition <noreply@test.com>";
 			$headers .= '' . "\r\n";
@@ -52,7 +52,7 @@
 			//Confirmation page
 			$user = "$mail";
 			$usersubject = "Thank You";
-			$userheaders = "From: logeshwari500@gmail.com\n";
+			$userheaders = "From: sales@smartroofings.in\n";
 			
 			/*$usermessage = "Thank you for your time. Your survey is successfully submitted.\n"; WITH OUT SUMMARY*/
 			//Confirmation page WITH  SUMMARY
