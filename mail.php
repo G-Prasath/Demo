@@ -33,7 +33,7 @@
 			/*$subject = "".$_POST['subject'];*/
 			$to = "sales@smartroofings.in";		/* YOUR EMAIL HERE */
 			$subject = "Demolition";
-			$headers = "From: Demolition <noreply@test.com>";
+			$headers = "From: Demolition <sales@smartroofings.in";
 			$headers .= '' . "\r\n";
 			$headers .= 'Content-Type: text/html; charset=ISO-8859-1' . "\r\n";
 			$message = '<html><body>';
