@@ -6079,3 +6079,10 @@ textarea.form-control.modal_form {
 	color: red;
 	font-size:14px;
 }
+
+img.serimg {
+    max-height: 250px;
+    width: 100%;
+    min-height: 250px;
+    object-fit: cover;
+}

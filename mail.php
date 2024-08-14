@@ -31,12 +31,12 @@
 			$hostmail =	$_POST['hostemail'];
 
 			/*$subject = "".$_POST['subject'];*/
-			$to = "sales@smartroofings.in";		/* YOUR EMAIL HERE */
-			$subject = "Demolition";
-			$headers = "From: Demolition <sales@smartroofings.in";
+			$to = "sales@smartroofings.in";		/* sales@smartroofings.in */
+			$subject = "Vinya Enterprises";
+			$headers = "From: Vinya Enterprises <sales@smartroofings.in";
 			$headers .= '' . "\r\n";
 			$headers .= 'Content-Type: text/html; charset=ISO-8859-1' . "\r\n";
-			$message = '<html><body>';
+			$message = '<html><body>';			
 			
 			$message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 			$message .= "<tr style='background: #eee;'><td><strong> Name</strong> </td><td>" . strip_tags($_POST['name']) . "</td></tr>";
@@ -46,7 +46,7 @@
 
 			//Receive Variable
 			$sentOk = mail($to,$subject,$message,$headers);
-			//$sentOk1 = mail($mail,$subject,$message,$headers)
+			//$sentOk1 = mail($mail,$subject,$message,$headers);
 		
 			
 			//Confirmation page
