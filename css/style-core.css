@@ -2292,6 +2292,14 @@ body.admin-bar .inteco-fixed-navigation.inteco-style-slide {
 	margin-top: 13px;
 }
 
+@media (max-width: 576px) {
+	.inteco-page-title-wrap.inteco-style-large .inteco-page-caption {
+		margin-top: 0px;
+		font-size: 17px;
+	}
+	
+}
+
 .inteco-page-title-wrap.inteco-style-large .inteco-page-title-content {
 	padding-top: 160px;
 	padding-bottom: 175px;
@@ -5846,7 +5854,7 @@ html.mm-opening.inteco-mmenu-right .inteco-mobile-header {
 
 @media only screen and (max-width: 767px) {
     #gdlr-core-column-3 .gdlr-core-pbf-column-content-margin {
-        margin-top: 30px !important;
+        /* margin-top: 30px !important; */
         margin-right: 0px !important;
     }
 }
