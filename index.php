@@ -9,7 +9,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content=" [Your Trust Name] is dedicated to transforming lives through charity and support. Join us in making a positive impact and bringing hope to communities.">
+    <meta name="description"
+        content=" [Your Trust Name] is dedicated to transforming lives through charity and support. Join us in making a positive impact and bringing hope to communities.">
     <title>Empowering Lives Through Charity & Support - [Your Company Name]</title>
 
     <?php require_once "./_templates/head.php" ?>
@@ -18,21 +19,21 @@
 
 <body
     class="home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js inteco-body inteco-body-front inteco-full  inteco-with-sticky-navigation  inteco-blockquote-style-1 gdlr-core-link-to-lightbox"
-    data-home-url="index.html">
+    data-home-url="index.php">
 
 
-   <?php require_once "./_templates/side_btn.php";  ?> 
+    <?php require_once "./_templates/side_btn.php"; ?>
 
 
     <!-- --========= Mobile Navbar ======--  -->
-     <?php require_once "./_templates/mobile_nav.php" ?>   
+    <?php require_once "./_templates/mobile_nav.php" ?>
 
     <!-- --======== Desktop =========-- -->
     <div class="inteco-body-outer-wrapper ">
         <div class="inteco-body-wrapper clearfix  inteco-with-transparent-header inteco-with-frame">
 
             <!-- ---------- Desktop Navbar Start------- -->
-            <?php require_once "./_templates/desktop_nav.php"  ?>
+            <?php require_once "./_templates/desktop_nav.php" ?>
             <!-- ---------- Desktop Navbar End ------- -->
             <div class="inteco-page-wrapper" id="inteco-page-wrapper">
                 <div class="gdlr-core-page-builder-body">
@@ -131,7 +132,7 @@
                                                                 Bringing Hope, Changing Lives – Join Our Mission Today
                                                             </h1>
                                                         </div>
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -671,376 +672,16 @@
                     </div>
 
                     <!-- --------------CTA ------- -->
-                    <?php require_once "./_templates/cta.php"  ?>
+                    <?php require_once "./_templates/cta.php" ?>
                     <!-- -------------- CTA ------- -->
 
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <!-- ---------- Our Company Profile Start ----------  -->
-
-                <!-- ---------- Our Company Profile End ----------  -->
-
-
-
-
-
-
-                <!-- ---------- Service Section End -------->
-
-                <!-- -------------  What is Soft Demolition Start -----------  -->
-                <!-- <div class="gdlr-core-pbf-wrapper ">
-                    <div class="gdlr-core-pbf-background-wrap">
-                        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(upload/hp1-about-bg-2-1.jpg) ;background-repeat: no-repeat ;background-position: center ;"
-                            data-parallax-speed="-0.2"></div>
-                    </div>
-                    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first"
-                                id="gdlr-core-column-2">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
-                                    style="margin: 0px 0px 0px 120px;padding: 80px 0px 0px 0px;">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js "
-                                        data-gdlr-animation="fadeInLeft" data-gdlr-animation-duration="600ms"
-                                        data-gdlr-animation-offset="0.8">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
-                                                style="padding-bottom: 17px ;margin-left: 50px ;"><span
-                                                    class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
-                                                    style="font-size: 21px ;font-style: normal ;margin-bottom: 2px ;">Soft
-                                                    Demolition</span>
-
-                                                <h2 class="gdlr-core-title-item-title gdlr-core-skin-title "
-                                                    style="font-size: 34px ;letter-spacing: 0px ;text-transform: none ;">
-                                                    What is Soft Demolition?</h2>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align"
-                                                style="margin-bottom: 45px ;margin-right: -145px ;">
-                                                <div class="gdlr-core-divider-line gdlr-core-skin-divider"
-                                                    style="border-color: #d6c5c2 ;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"
-                                                style="padding-bottom: 0px ;">
-                                                <div class="gdlr-core-text-box-item-content"
-                                                    style="text-transform: none ;">
-                                                    <p>Soft demolition is a non-structural demolition process
-                                                        involving removal of ceilings, fixtures, electrical wiring
-                                                        and plumbing. </p>
-                                                    <p>This method allows for selective demolition, focusing on
-                                                        specific areas while preserving the structural integrity.
-                                                        Material reuse is prioritized to reduce waste and lower
-                                                        costs. The cost of soft demolition is generally more
-                                                        economical compared to full-scale demolition.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
-                                    style="margin: 0px 75px 0px 0px;padding: 20px 0px 0px 0px;">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js "
-                                        data-gdlr-animation="fadeInRight" data-gdlr-animation-duration="600ms"
-                                        data-gdlr-animation-offset="0.8">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-right-align"
-                                                style="padding-bottom: 0px ;">
-                                                <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle"
-                                                    style="border-width: 0px;max-width: 430px ;"><img
-                                                        src="images/kb/pre22.jpg" alt="" width="600" height="800"
-                                                        title="Demolition" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first"
-                                id="gdlr-core-column-3">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
-                                    style="margin: 0px 60px 0px 0px;padding: 0px 0px 0px 0px;">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js "
-                                        data-gdlr-animation="fadeInLeft" data-gdlr-animation-duration="600ms"
-                                        data-gdlr-animation-offset="0.8">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-right-align">
-                                                <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle"
-                                                    style="border-width: 0px;max-width: 430px ;"><img
-                                                        src="images/kb/environ11.jpg" alt="" width="600" height="800"
-                                                        title="Demolition" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column-4">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
-                                    style="margin: 0px 120px 0px 0px;padding: 105px 0px 0px 0px;">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js "
-                                        data-gdlr-animation="fadeInRight" data-gdlr-animation-duration="600ms"
-                                        data-gdlr-animation-offset="0.8">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
-                                                style="padding-bottom: 17px ;margin-left: 50px ;"><span
-                                                    class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
-                                                    style="font-size: 21px ;font-style: normal ;margin-bottom: 2px ;">Hard
-                                                    Demolition</span>
-                                                <div class="gdlr-core-title-item-title-wrap ">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title "
-                                                        style="font-size: 34px ;letter-spacing: 0px ;text-transform: none ;">
-                                                        What is Hard Demolition?</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-left-align"
-                                                style="margin-bottom: 45px ;margin-left: -105px ;">
-                                                <div class="gdlr-core-divider-container" style="max-width: 355px ;">
-                                                    <div class="gdlr-core-divider-line gdlr-core-skin-divider"
-                                                        style="border-color: #d6c5c2 ;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"
-                                                style="padding-bottom: 0px ;">
-                                                <div class="gdlr-core-text-box-item-content"
-                                                    style="text-transform: none ;">
-                                                    <p>Hard demolition is also known as complete demolition or
-                                                        structural demolition. </p>
-                                                    <p>It involves tearing down a building entirely. Techniques like
-                                                        implosion and crushing concrete are used. This process
-                                                        includes excavation, debris removal and site clearing to
-                                                        prepare for new construction.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- -------------  What is Soft Demolition End -----------  -->
-
-                <!-- --------------- Testimonial Start ---------------  -->
-                <!-- <div class="gdlr-core-pbf-wrapper " style="padding: 180px 0px 90px 0px;" id="gdlr-core-wrapper-4">
-                    <div class="gdlr-core-pbf-background-wrap">
-                        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(images/kb/testimonial-bg.avif) ;background-size: cover ;background-position: center ;"
-                            data-parallax-speed="0.2"></div>
-                    </div>
-                    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom"
-                            style="max-width: 833px ;">
-                            <div class="gdlr-core-pbf-element">
-                                <div
-                                    class="gdlr-core-testimonial-item gdlr-core-item-pdb clearfix  gdlr-core-testimonial-style-center gdlr-core-item-pdlr">
-                                    <div class="gdlr-core-flexslider flexslider gdlr-core-js-2 gdlr-core-nav-style-middle-large"
-                                        data-type="carousel" data-column="1" data-move="1" data-nav="bullet"
-                                        data-vcenter-nav="1" data-disable-autoslide="1">
-                                        <div class="gdlr-core-block-item-title-wrap  gdlr-core-center-align gdlr-core-item-mglr"
-                                            style="margin-bottom: 45px ;">
-                                            <div class="gdlr-core-block-item-title-inner">
-                                                <h3 class="gdlr-core-block-item-title"
-                                                    style="font-size: 33px ;text-transform: none ;letter-spacing: 0px ;color: #ffffff ;">
-                                                    Testimonial</h3>
-                                            </div>
-                                            <div
-                                                class="gdlr-core-flexslider-nav gdlr-core-round-style gdlr-core-absolute-center gdlr-core-right">
-                                            </div>
-                                        </div>
-                                        <ul class="slides">
-                                            <li class="gdlr-core-item-mglr">
-                                                <div class="gdlr-core-testimonial clearfix">
-                                                    <div class="gdlr-core-testimonial-content-wrap">
-                                                        <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon"
-                                                            style="color: #ffffff ;">&#8220;</div>
-                                                        <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content"
-                                                            style="font-size: 20px ;color: #ffffff ;">
-                                                            <p>A wonderful serenity has taken possession of my
-                                                                entire soul, like these sweet mornings of spring
-                                                                which I enjoy with my whole heart. I am alone, and
-                                                                feel the charm of existence in this spot, which was
-                                                                created for the bliss of souls like mine. I am so
-                                                                happy, my dear friend, so absorbed in the exquisite
-                                                                sense of me.</p>
-                                                        </div>
-                                                        <div class="gdlr-core-testimonial-author-wrap clearfix">
-                                                            <div
-                                                                class="gdlr-core-testimonial-author-image gdlr-core-media-image">
-                                                                <img src="upload/personnel-2-2-150x150.jpg" alt=""
-                                                                    width="150" height="150" title="Demolition" />
-                                                            </div>
-                                                            <div class="gdlr-core-testimonial-author-content">
-                                                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title"
-                                                                    style="color: #ffffff ;">Jane Smith</div>
-                                                                <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption"
-                                                                    style="color: #ffffff ;">CEO, InDesign</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- --------------- Testimonial End ---------------  -->
-
-
-
-
-
-                <!-- ------------ Safety Precautions End ---------- -->
-
-                <!-- ---------- About us start -----------  -->
-                <!-- <div class="gdlr-core-pbf-wrapper " style="padding: 170px 0px 130px 0px;" id="gdlr-core-wrapper-2">
-                    <div class="gdlr-core-pbf-background-wrap">
-                        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url(&quot;upload/hp4-service-bg-1.jpg&quot;); background-size: cover; background-position: center center; height: 451.2px; transform: translate(0px, -132.5px);"
-                            data-parallax-speed="0.8"></div>
-                    </div>
-                    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
-                                    style="padding: 0px 60px 0px 0px;">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js"
-                                        data-gdlr-animation-duration="600ms" data-gdlr-animation-offset="0.8" style="">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-center-align">
-                                                <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle"
-                                                    style="border-width: 0px;">
-                                                    <a class="gdlr-core-lightgallery gdlr-core-js "
-                                                        href="upload/pexels-photo-227675.jpg"
-                                                        data-sub-html="The new concept">
-                                                        <img src="images/kb/about.jpg" alt="" width="630" height="501"
-                                                            title="Demolition">
-
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-30">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
-                                    style="padding: 25px 0px 0px 0px;">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js"
-                                        data-gdlr-animation-duration="600ms" data-gdlr-animation-offset="0.8" style="">
-                                        <div class="gdlr-core-pbf-element">
-                                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
-                                                style="padding-bottom: 20px ;">
-                                                <span
-                                                    class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
-                                                    style="font-size: 25px ;font-style: normal ;color: #bdbdbd ;margin-bottom: 6px ;">About
-                                                    Us</span>
-                                                <div class="gdlr-core-title-item-title-wrap ">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title "
-                                                        style="font-size: 51px ;letter-spacing: 0px ;text-transform: none ;color: #ffffff ;">
-                                                        Our demolition </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-left-align">
-                                                <div class="gdlr-core-divider-container" style="max-width: 55px ;">
-                                                    <div class="gdlr-core-divider-line gdlr-core-skin-divider"
-                                                        style="border-color: #ffffff ;border-bottom-width: 3px ;">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"
-                                                style="padding-bottom: 15px ;">
-                                                <div class="gdlr-core-text-box-item-content"
-                                                    style="font-size: 18px ;font-weight: 400 ;text-transform: none ;color: #dcdcdc ;">
-                                                    <p>For over 20 years, Vinya Enterprises has been Chennai's
-                                                        demolition partner of choice. We've built a reputation for
-                                                        quality work and exceeding client expectations, making us
-                                                        the leading demolition contractor in the region. Our
-                                                        impressive portfolio is a testament to our success – it's
-                                                        filled with a variety of projects we've completed throughout
-                                                        Chennai. Whether you're looking to demolish a residential
-                                                        house, a commercial building and Industrial Structures.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-pbf-element">
-                                            <div
-                                                class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
-                                                <a class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border"
-                                                    href="about-us.html"
-                                                    style="font-size: 15px ;letter-spacing: 0px ;color: #303030 ;padding: 13px 26px 15px 26px;text-transform: none ;border-radius: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;background: #ffffff ;">
-                                                    <span class="gdlr-core-content">Learn More</span>
-                                                    <i class="gdlr-core-pos-right fa fa-long-arrow-right"
-                                                        style="color: #303030 ;"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- ---------- About us end -----------  -->
-
-
-
-
-
             </div>
         </div>
 
 
         <!-- ---------- Footer -----------  -->
-        <?php require_once "./_templates/footer.php";  ?>
+        <?php require_once "./_templates/footer.php"; ?>
 
 
     </div>

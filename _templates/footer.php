@@ -32,10 +32,10 @@
                     <h3 class="inteco-widget-title">Quick Links</h3><span class="clear"></span>
                     <div class="menu-quick-links-container">
                         <ul id="menu-quick-links" class="menu">
-                            <li class="menu-item"><a href="index.html">Home</a></li>
-                            <li class="menu-item"><a href="about-us.html">About Us</a></li>
-                            <li class="menu-item"><a href="about-us.html">Donate</a></li>
-                            <li class="menu-item"><a href="contact.html">Contact Us</a></li>
+                            <li class="menu-item"><a href="index.php">Home</a></li>
+                            <li class="menu-item"><a href="about-us.php">About Us</a></li>
+                            <li class="menu-item"><a href="about-us.php">Donate</a></li>
+                            <li class="menu-item"><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

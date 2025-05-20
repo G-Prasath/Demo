@@ -6019,7 +6019,7 @@ html.mm-opening.inteco-mmenu-right .inteco-mobile-header {
 .floating-buttons {
 	position: fixed;
 	right: 10px;
-	top: 50%;
+	top: 70%;
      transform: translateY(-50%);
 	display: flex;
 	flex-direction: column;

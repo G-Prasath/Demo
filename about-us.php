@@ -18,7 +18,7 @@
 
 <body
     class="home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js inteco-body inteco-body-front inteco-full  inteco-with-sticky-navigation  inteco-blockquote-style-1 gdlr-core-link-to-lightbox"
-    data-home-url="index.html">
+    data-home-url="index.php">
 
 
     <?php require_once "./_templates/side_btn.php"; ?>
